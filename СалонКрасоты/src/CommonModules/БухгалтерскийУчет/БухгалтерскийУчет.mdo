@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8b339ea-1e7a-42a2-b4e2-64626edaf7e1">
+  <name>БухгалтерскийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерский учет</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

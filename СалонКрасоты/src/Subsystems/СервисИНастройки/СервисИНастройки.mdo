@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1283b7a6-ff17-43d7-8cde-0e97d207b8cb">
+  <name>СервисИНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис и настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Настройки</picture>
+  </picture>
+  <content>Enum.ТипыОрганизаций</content>
+  <content>Enum.ТипыНоменклатуры</content>
+  <content>Enum.ПолФизическогоЛица</content>
+  <content>Enum.ТипыКонтрагентов</content>
+  <content>Enum.ВидыЦенПродажи</content>
+  <content>Enum.ВидыОперацийПоступленияДенег</content>
+  <content>Enum.ВидыОперацийРасходаДенег</content>
+  <content>Catalog.Пользователи</content>
+  <content>FunctionalOption.ИспользоватьСклады</content>
+  <content>Constant.ИспользоватьСклады</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>Constant.ИспользоватьДополнительныеОтчетыИОбработки</content>
+</mdclass:Subsystem>

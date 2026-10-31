@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a2a2726-994b-4509-bf7a-2b3cc7d214c9">
+  <producedTypes>
+    <selectionType typeId="4d0a0e5c-33b2-412d-8dbf-008de124d962" valueTypeId="5d1cfa45-68f0-421c-a93c-d69d83c8d9d4"/>
+    <listType typeId="3ef68c92-fc52-4a6f-acff-161e188a141c" valueTypeId="69dc2250-0e77-4bf5-8ff8-cd694c594803"/>
+    <managerType typeId="9675b992-b53d-4ab7-8465-a83d7cc06e0b" valueTypeId="4adde952-be65-445f-8e22-01d20bca0789"/>
+    <recordSetType typeId="20dd5a7c-21ba-4d76-a57d-50eb620a356b" valueTypeId="5a439b92-e38b-49d8-9e5e-9079dcb63c5d"/>
+    <recordKeyType typeId="3c2522f6-88e6-45d4-8cdc-a8db2a622f85" valueTypeId="45ff48d2-7040-4fd6-a1fd-ce4d11f28522"/>
+    <recordType typeId="7fef3543-c7ac-4b64-b310-1598d15db1cd" valueTypeId="f334d5ef-37f7-442b-baa7-559c1a2bee27"/>
+  </producedTypes>
+  <name>ЗаказыКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="bb3fc55b-68d6-4b41-97c2-9edf179d2926">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9abfd179-6efd-4821-96f1-4594d78a294c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b18a6d40-9b7e-406f-b8ce-c7a46a16692c">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="40e7dc7a-2977-46de-81e7-2d440807515c">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПредварительнаяЗапись</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

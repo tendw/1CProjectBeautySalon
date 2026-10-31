@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9438a43e-4bd5-465f-abc4-129338726e16">
+  <producedTypes>
+    <objectType typeId="bb1e8197-dc69-438c-a81f-1546dc09a467" valueTypeId="1af54d4b-2d1d-4796-835f-c53ad85e9a47"/>
+    <refType typeId="ebf81dd8-3340-471b-821c-033269b20b0f" valueTypeId="81f73b0e-4c9d-4e66-930d-478ccacc8130"/>
+    <selectionType typeId="352c57a2-d96a-416d-b62b-0dc4aafd5986" valueTypeId="e673f70d-0ad4-4055-9dc3-29c43cd23a63"/>
+    <listType typeId="a03b0fea-7190-4829-b542-13dc0d21adfe" valueTypeId="2d7d9ad7-10af-40a2-907e-7ae2c9c2a1e8"/>
+    <managerType typeId="bf802f87-4587-4818-81da-ce38e726fe21" valueTypeId="96123947-979a-4936-b6ea-0b23e2156ae2"/>
+    <containerType typeId="51ff5c52-e2d5-4dc3-94a3-c334e583fec5" valueTypeId="ac735995-de30-44ab-ae77-09d85d04614c"/>
+  </producedTypes>
+  <name>ВидыСубконтоХозрасчетные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто хозрасчетные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.СтатьиЗатрат</types>
+    <types>CatalogRef.Кассы</types>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8f6452d2-1100-4551-94bf-ae0e5af64289">
+      <name>Кассы</name>
+      <description>Кассы</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Кассы</types>
+      </type>
+    </items>
+    <items id="366adb6b-ef37-485a-9612-bf2929314d39">
+      <name>Контрагенты</name>
+      <description>Контрагенты</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="8304be11-2f82-4619-9628-6a94709537ab">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="d5dac3ad-6855-4bb7-819e-52e54ca7c969">
+      <name>Сотрудники</name>
+      <description>Сотрудники</description>
+      <code>000000004</code>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+    </items>
+    <items id="8fb868a5-5800-4399-a0e7-d090fa911b9d">
+      <name>СтатьиЗатрат</name>
+      <description>Статьи затрат</description>
+      <code>000000005</code>
+      <type>
+        <types>CatalogRef.СтатьиЗатрат</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

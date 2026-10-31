@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44846f0d-b707-4b59-a3e1-d482ebcde482">
+  <producedTypes>
+    <objectType typeId="69fed680-2875-4e81-8480-a5c3a8304db3" valueTypeId="2c56ff27-50a4-4320-9671-de3641b54750"/>
+    <refType typeId="a520b86d-6243-4bac-8fb9-cf21d2988c04" valueTypeId="aa8a2e26-446e-48d0-adeb-6ae71d350ae2"/>
+    <selectionType typeId="999164b8-a137-4ab9-a5c1-5fe2d47f0be3" valueTypeId="9b1d763f-9fe3-4f7b-95c0-06e2a6de695d"/>
+    <listType typeId="a70dd7e3-44f2-4b20-8c81-f3b7367f3e49" valueTypeId="3c0c63f9-77b1-42da-aff0-ac0819d1fa99"/>
+    <managerType typeId="1959c948-ad02-40f8-ba45-d89790b26a60" valueTypeId="d5498781-2713-4c8d-8fab-2223c1229127"/>
+  </producedTypes>
+  <name>Кассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кассы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Кассы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Кассы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Кассы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="c59403ff-3360-471c-8e54-e6b92a14132c">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="29b1039c-3a82-434d-a79d-586185b8d53d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d44a23b7-cf28-4e77-b27d-39c9d0137b3b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

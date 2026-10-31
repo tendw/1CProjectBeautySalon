@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e0b0338-599f-4a6c-80ae-d3bf59db4176">
+  <producedTypes>
+    <selectionType typeId="61788c5d-9ba5-48da-9bf8-90a5cafaa817" valueTypeId="35162360-f50f-499a-a86b-114b3674e0c4"/>
+    <listType typeId="85f34a27-464c-4642-8766-cf79db2c6c64" valueTypeId="91179c4c-1aa9-4624-afd5-fba254ba0fcb"/>
+    <managerType typeId="57c492fa-c0f9-4d89-995e-71b734886429" valueTypeId="8088d11b-95ad-4a2d-8179-137ac34416f7"/>
+    <recordSetType typeId="3cc79287-ca0b-4c00-aea6-78ef6caa06b4" valueTypeId="ee2f8271-0e28-4ab7-9f43-8a66542205b0"/>
+    <recordKeyType typeId="7e7005f0-c217-4900-bcf9-801ce78e5b79" valueTypeId="9a1032a1-610d-4b4e-9bf7-7d79021f4695"/>
+    <recordType typeId="d2bc8b94-578b-4a07-b8cf-fb5d9a410625" valueTypeId="13d6c028-d5cf-47f8-b2a2-d7d5bb23ca3d"/>
+  </producedTypes>
+  <name>УчетЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="de3851b4-205a-4398-8db7-da63d7c362a6">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="1441e465-2163-4368-9b29-145d1f9af78f">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e151e996-7147-48a8-8d68-2f35f96ceeac">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

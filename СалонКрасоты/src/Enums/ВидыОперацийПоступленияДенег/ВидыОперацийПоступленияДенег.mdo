@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84d59dcf-dc9f-45b9-8f02-1966dba035b6">
+  <producedTypes>
+    <refType typeId="3a9e66c2-db1d-4210-bfba-519b3f43dc7c" valueTypeId="a620177e-3f77-413e-be6a-204cf3059281"/>
+    <listType typeId="46e8c639-b8be-46ad-94c4-57408c68984f" valueTypeId="5bb69b93-b0ff-4107-b14a-f5747797f325"/>
+    <managerType typeId="faaeaa7d-89f0-4231-84bb-21ccfdbac1f4" valueTypeId="2e9e4f7e-5e1e-4328-8513-57d0fcacebf2"/>
+  </producedTypes>
+  <name>ВидыОперацийПоступленияДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций поступления денег</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c89e367e-d4a7-40e4-a361-e06eee2df53c">
+    <name>ОплатаОтПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата от покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f18c4af-9057-49ac-af21-8bfeb00bf7b0">
+    <name>ВозвратОтПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от поставщика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47cf6b8c-c38c-41e7-9fb6-0b91daed5181">
+    <name>ВозвратОтПодотчетника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от подотчетника</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

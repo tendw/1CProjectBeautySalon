@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c737266c-71a7-4eba-85e3-e388a893b134">
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Деньги</picture>
+  </picture>
+  <content>Catalog.Кассы</content>
+  <content>Document.ПриходныйКассовыйОрдер</content>
+  <content>Document.РасходныйКассовыйОрдер</content>
+  <content>AccumulationRegister.ДенежныеСредства</content>
+  <content>Report.ОтчетПоДвижениюДенегВКассах</content>
+</mdclass:Subsystem>

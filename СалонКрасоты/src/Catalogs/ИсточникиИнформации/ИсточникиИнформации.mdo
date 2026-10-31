@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9c60c8f-3b08-4d9c-853f-53de07cfd9ba">
+  <producedTypes>
+    <objectType typeId="263f1b93-f142-46f6-929a-3b836b1a8d76" valueTypeId="34da3b7a-aa1a-4d0d-b17e-1d22e02fa505"/>
+    <refType typeId="aff5d525-7e9c-40b3-a717-1f5cb7a21765" valueTypeId="7eb614bc-16b6-441b-a729-e74c7d7e512c"/>
+    <selectionType typeId="e49c794d-01e3-40e7-8b1c-6d633266d799" valueTypeId="a2949449-24c7-41cb-87a4-bfa4eb4538f8"/>
+    <listType typeId="1a67af61-db78-4f67-a697-e4ac9a41c8c7" valueTypeId="f6aa5271-6356-4956-8b6d-f415b73ef9b8"/>
+    <managerType typeId="f7b956de-1e0e-4e85-9e9a-e1cf5fe32358" valueTypeId="8527adce-454e-4d01-ba8d-30f4eca5ddbe"/>
+  </producedTypes>
+  <name>ИсточникиИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники информации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникиИнформации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиИнформации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f8c314a3-0419-41f6-8cb7-0ea4fef22b19">
+      <name>ОтЗнакомых</name>
+      <description>От знакомых</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="f0544a87-f78d-4dc9-b61b-e469276c2c50">
+      <name>РекламаВИнтернете</name>
+      <description>Реклама в интернете</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="0f1a35ab-c25c-43e3-b6e2-fef38c608929">
+      <name>РекламаВСоциальныхСетях</name>
+      <description>Реклама в социальных сетях</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="9405bcd1-2b48-494f-8ba7-f68e2a7129dd">
+      <name>РекламаУБлогеров</name>
+      <description>Реклама у блогеров</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИсточникиИнформации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИсточникиИнформации.Form.ФормаСписка</defaultListForm>
+  <forms uuid="bb3e3a99-4806-4056-a8cc-7ea50e78545a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fae8c22a-287c-45d8-b7ba-4d15a02de271">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

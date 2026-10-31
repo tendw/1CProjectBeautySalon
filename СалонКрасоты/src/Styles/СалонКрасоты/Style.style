@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style:Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:style="http://g5.1c.ru/v8/dt/style">
+  <items xsi:type="style:ColorStyleItem">
+    <name>ActivityColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>248</red>
+      <green>213</green>
+      <blue>196</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AccentColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>175</red>
+      <green>115</green>
+      <blue>104</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>NavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>248</red>
+      <green>213</green>
+      <blue>196</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AuxiliaryNavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>245</red>
+      <green>228</green>
+      <blue>221</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ImportantColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>238</red>
+      <green>147</green>
+      <blue>146</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FirstBrand</name>
+    <color xsi:type="core:ColorDef">
+      <red>238</red>
+      <green>147</green>
+      <blue>146</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>SecondBrand</name>
+    <color xsi:type="core:ColorDef">
+      <red>175</red>
+      <green>115</green>
+      <blue>104</blue>
+    </color>
+  </items>
+</style:Style>

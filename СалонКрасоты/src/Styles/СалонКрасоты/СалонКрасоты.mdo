@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da02f0bb-919a-4164-aad6-da224f6ac511">
+  <name>СалонКрасоты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Салон красоты</value>
+  </synonym>
+</mdclass:Style>

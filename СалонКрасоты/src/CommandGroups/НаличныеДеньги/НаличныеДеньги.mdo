@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b43e193e-c12d-451a-8441-8b67438632a2">
+  <name>НаличныеДеньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наличные деньги</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

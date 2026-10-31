@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7755e09a-741b-4b21-bd64-53ccccf81ff2">
+  <producedTypes>
+    <selectionType typeId="c0e9a02e-5ebb-4a92-abc2-c4ff533d85c6" valueTypeId="03842eca-c6dc-4460-b6cc-c80d4aae2b05"/>
+    <listType typeId="5072712b-900b-4d74-9b8d-4bfbfaa28aaf" valueTypeId="a154eaf8-fa52-499e-ab9f-df8dadb40427"/>
+    <managerType typeId="ce676e87-96d5-4434-9eea-2f4737498e8c" valueTypeId="4a24916c-b479-44bc-9bd1-324772cd8db9"/>
+    <recordSetType typeId="2d3c3aec-f5f0-41ce-8e12-aebc5eac787e" valueTypeId="cd67380f-7a2b-48ac-903a-6f5004b6e93e"/>
+    <recordKeyType typeId="7e4d6800-6894-40fa-b2a7-dc065c3b474f" valueTypeId="ba5b97ab-d070-4709-823f-44143766f8c2"/>
+    <recordType typeId="b974ddfb-a655-4acb-8ff3-fdc5df12793e" valueTypeId="6b4ee002-4e63-4522-a3fb-b7f84e7e9e7a"/>
+  </producedTypes>
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9bf47371-fa82-46bd-b04e-ab4622fdc02d">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="aa30bebb-3916-40c2-8ba2-cf199464ea61">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="05f2f78b-caeb-4b34-bcca-141afab667df">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

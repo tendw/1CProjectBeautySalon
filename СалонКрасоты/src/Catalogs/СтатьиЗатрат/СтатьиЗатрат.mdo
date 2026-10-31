@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a11d2e3-e83a-4b6f-a31a-1a24d6b71227">
+  <producedTypes>
+    <objectType typeId="5fb4f747-ac9f-474f-9939-8a478a7e80eb" valueTypeId="b3c9dab3-d910-475e-bca1-6a6562662877"/>
+    <refType typeId="67f84714-ac5d-42c5-9b9c-862fe0179e4a" valueTypeId="046b92a2-2cab-40d0-9b4b-73dc64d1364d"/>
+    <selectionType typeId="287a17fc-a320-4cdd-9283-f0399df23190" valueTypeId="99846f34-68d7-4e06-b075-4fefd7780da2"/>
+    <listType typeId="f69805c5-7086-4f30-b0a8-d27f7866762a" valueTypeId="0c3816d8-5304-42b7-8aee-e7e1ed08f7cd"/>
+    <managerType typeId="3d58d69a-9384-49fc-96e3-dd3915f01b40" valueTypeId="67cc1b08-3f80-479b-8d9b-d29240238a55"/>
+  </producedTypes>
+  <name>СтатьиЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатьиЗатрат.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтатьиЗатрат.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="bececc72-2abc-4c08-82f4-6d7cf0220dc7">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="292643a4-cbdd-4566-afb6-5154d375bb24">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3179486f-e5d3-4c65-949b-c763ae055a98">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e7600c9-688b-4d42-9ce7-9a18dc5a05b2">
+  <producedTypes>
+    <selectionType typeId="95bfd1ee-4a71-4ef8-b538-f1693b6d7c4c" valueTypeId="f2610637-bfef-4304-9779-e48024926b19"/>
+    <listType typeId="6894f5b6-50f6-469d-ad03-fec8604869f1" valueTypeId="b1df391a-6267-4f57-b67b-f257b2761bb7"/>
+    <managerType typeId="e6e58dcc-41d2-411f-9edb-26fc09bdee0c" valueTypeId="0fc20dbf-2953-4dbd-b4c5-16a41249b1cf"/>
+  </producedTypes>
+  <name>ЖурналХозяйственныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал хозяйственных операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.Реализация</registeredDocuments>
+  <registeredDocuments>Document.ПриходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.РасходныйКассовыйОрдер</registeredDocuments>
+  <columns uuid="29f9395e-b2ec-415c-92f4-c580a7fbd454">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.ВидОперации</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="ae06c68b-32ee-4de0-9064-dcc24976b68f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Контрагент</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Плательщик</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Получатель</references>
+    <references>Document.Реализация.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="101c6d85-ed74-4ebc-b7fa-21d99f3315af">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.СуммаДокумента</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.СуммаДокумента</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.СуммаДокумента</references>
+    <references>Document.Реализация.Attribute.СуммаДокумента</references>
+  </columns>
+</mdclass:DocumentJournal>
