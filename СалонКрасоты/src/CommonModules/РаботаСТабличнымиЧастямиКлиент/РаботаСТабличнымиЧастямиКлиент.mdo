@@ -6,5 +6,4 @@
     <value>Работа с табличными частями клиент</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
